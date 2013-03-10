@@ -6,3 +6,5 @@ Thumbs.db
 *.lnk
 tools/DebugView/*
 tools/upx/*
+tools/RichOff/*
+tools/StripReloc/*
