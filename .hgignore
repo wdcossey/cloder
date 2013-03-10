@@ -1,17 +1,6 @@
 syntax: glob
-bin/dcu/uallUtil.dcu
-bin/dcu/uallProcess.dcu
-bin/dcu/uallKernel.dcu
-bin/dcu/uallHook.dcu
-bin/dcu/uallDisasmEx.dcu
-bin/dcu/uallDisasm.dcu
-bin/dcu/MiniCommDlg.dcu
-bin/dcu/CreateProcessInternal_delphi.dcu
-bin/dcu/CreateProcessInternalApi.dcu
-bin/CloDer.exe
-bin/CloDer.dll
-Projects/Injector/icon.res
-Projects/Injector/version.res
-Projects/Injector/manifest.res
-Projects/HookLib/version.res
+bin/dcu/*
+bin/*
+*.res
 Thumbs.db
+*.lnk
