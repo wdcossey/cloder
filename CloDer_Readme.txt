@@ -45,10 +45,16 @@ Parameters are very basic, any additional paramters specified will be passed ont
 			"C:\Downloads\CloDer.exe"
 			OR
 			"C:\Downloads\CloDer.exe" "C:\Program Files (x86)\Steam\steamapps\common\il-2 sturmovik cliffs of dover\Launcher.exe"
+
 		- Start a server:
 			"C:\Downloads\CloDer.exe" -server
 			OR
 			"C:\Downloads\CloDer.exe" "C:\Program Files (x86)\Steam\steamapps\common\il-2 sturmovik cliffs of dover\Launcher.exe" -server
+
+		- Run the game with a Mod[ification] (using "kegetys.dll"):
+			"C:\Downloads\CloDer.exe" -mod=nomipmaps -mod=nossao
+			OR
+			"C:\Downloads\CloDer.exe" "C:\Program Files (x86)\Steam\steamapps\common\il-2 sturmovik cliffs of dover\Launcher.exe" -mod=nomipmaps -mod=nossao
 
 	* Note(s):
 		As of version 0.0.0.2 parameters will take prefrence over local files (therefore you can specify a different 
@@ -81,7 +87,7 @@ Version History:
 ----------------
 	* 0.0.0.2:
 		Additional paramaters specified to "CloDer.exe" will be passed onto "Launcher.exe".
-		Minor enhancements to "CloDer.exe".
+		Minor enhancements to "CloDer.exe" & "CloDer.dll".
 
 	* 0.0.0.1:
 		Initial release.
