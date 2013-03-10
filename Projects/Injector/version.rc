@@ -13,7 +13,7 @@ BEGIN
       VALUE "FileVersion", "0.0.0.2\0"
       VALUE "FileDescription", "Cliffs of Dover Hook Loader\0"
       VALUE "InternalName", "CloDer\0"
-      VALUE "LegalCopyright", "Copyright © 2012 sYk0\0"
+      VALUE "LegalCopyright", "Copyright © 2012 - 2013 sYk0\0"
       VALUE "OriginalFilename", "CloDer.exe\0"
       VALUE "ProductName", "CloD Loader\0"
       VALUE "ProductVersion", "0.0.0.2\0"
@@ -21,7 +21,7 @@ BEGIN
   END
   BLOCK "VarFileInfo"
   BEGIN
-    VALUE "Translation", 0x0000 0x0000
+    VALUE "Translation", 0x0809, 1252
   END
 END
 

@@ -108,8 +108,8 @@ var
   pLLA         : Pointer;
   pTargetMemory: Pointer;
 
-  vProtect     : LongBool;
-  oldProtect   : DWORD;
+  //vProtect     : LongBool;
+  //oldProtect   : DWORD;
 begin
   Result := False;
 

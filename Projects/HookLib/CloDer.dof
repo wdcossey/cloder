@@ -94,9 +94,9 @@ OutputDir=..\..\bin\
 UnitOutputDir=..\..\bin\dcu\
 PackageDLLOutputDir=
 PackageDCPOutputDir=
-SearchPath=..\..\include\JediApiLib\;..\..\include\uallCollection\
+SearchPath=..\..\include\;..\..\include\JediApiLib\;..\..\include\uallCollection\
 Packages=vcl;rtl;vclx;vclactnband;vclshlctrls;vclie;xmlrtl;inetdbbde;inet;inetdbxpress;dbrtl;vcldb;adortl;bdertl;vcldbx;VclSmp
-Conditionals=
+Conditionals=DEBUG
 DebugSourceDirs=
 UsePackages=0
 [Parameters]
@@ -125,14 +125,18 @@ Locale=7177
 CodePage=1252
 [Version Info Keys]
 FileVersion=1.0.0.0
+[HistoryLists\hlConditionals]
+Count=1
+Item0=DEBUG
 [HistoryLists\hlUnitAliases]
 Count=1
 Item0=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
 [HistoryLists\hlSearchPath]
-Count=3
-Item0=..\..\include\JediApiLib\;..\..\include\uallCollection\
-Item1=include\JediApiLib\;include\uallCollection\
-Item2=include\JediApiLib\
+Count=4
+Item0=..\..\include\;..\..\include\JediApiLib\;..\..\include\uallCollection\
+Item1=..\..\include\JediApiLib\;..\..\include\uallCollection\
+Item2=include\JediApiLib\;include\uallCollection\
+Item3=include\JediApiLib\
 [HistoryLists\hlUnitOutputDirectory]
 Count=2
 Item0=..\..\bin\dcu\
