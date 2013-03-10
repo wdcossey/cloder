@@ -4,3 +4,5 @@ bin/*
 *.res
 Thumbs.db
 *.lnk
+tools/DebugView/*
+tools/upx/*
