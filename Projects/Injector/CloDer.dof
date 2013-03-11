@@ -96,7 +96,7 @@ PackageDLLOutputDir=
 PackageDCPOutputDir=
 SearchPath=..\..\include\;..\..\include\JediApiLib\;..\..\include\uallCollection\
 Packages=vcl;rtl;dbrtl;inet;inetdb;dsnap;bdertl;vclx;vcldb;vcldbx;visualclx;visualdbclx;vclactnband;vclshlctrls;vclie;xmlrtl;inetdbbde;inetdbxpress;webdsnap;soaprtl;websnap;adortl;dbexpress;dsnapcon;dbxcds;ibxpress;teeui;teedb;tee;dss;indy;VclSmp;dclOfficeXP;qrpt;teeqr;Rave50CLX;Rave50VCL;IntrawebDB_50_70;Intraweb_50_70;TMSUnicodeD7;PngComponentsD7;DSPack_D7;DirectX9_D7;Jcl;JclVcl;JvCoreD7R;JvSystemD7R;JvStdCtrlsD7R;JvAppFrmD7R;JvBandsD7R;JvDBD7R;JvDlgsD7R;JvBDED7R;JvCmpD7R;JvCryptD7R;JvCtrlsD7R;JvCustomD7R;JvDockingD7R;JvDotNetCtrlsD7R;JvEDID7R;JvGlobusD7R;JvHMID7R;JvInterpreterD7R;JvJansD7R;JvManagedThreadsD7R;JvMMD7R;JvNetD7R;JvPageCompsD7R;JvPluginD7R;JvPrintPreviewD7R;JvRuntimeDesignD7R;JvTimeFrameworkD7R;JvUIBD7R;JvValidatorsD7R;JvWizardD7R;JvXPCtrlsD7R;dwWin7Controls_7
-Conditionals=DEBUG
+Conditionals=
 DebugSourceDirs=
 UsePackages=0
 [Parameters]

@@ -23,22 +23,22 @@ Place the files ("CloDer.exe" and "CloDer.dll") in your CloD directory ("...\ste
 		* If you do NOT want to put the files in your game folder, you can run "CloDer.exe" from anywhere, it will simply ask you for "Launcher.exe" when run.
 
 		* If you want to get smart, make a shortcut to "CloDer.exe" with a parameter pointing to "Launcher.exe".
-			See "CloDer Paramaters:" below.
+			See "CloDer Parameters:" below.
 
 Before you play!
 ----------------
-Ensure that you have installed the accompanying software/runtimes (these are a must have!):
+Ensure that you have installed the accompanying software/run-times (these are a must have!):
 
-	* Visual C++ 2010 Runtime Components
+	* Visual C++ 2010 Run-time Components
 		Installation can be found in "...\il-2 sturmovik cliffs of dover\redist\VCRedist\", run "vcredist_x86.exe".
 		Updated installation (Service Pack 1):	http://www.microsoft.com/en-us/download/details.aspx?id=8328
 	* DirectX
 		DirectX installation can be found in "...\il-2 sturmovik cliffs of dover\redist\DirectX\", run "DXSETUP.exe".
 		Updated installation (Web Installer):	http://www.microsoft.com/en-us/download/details.aspx?id=35
 
-CloDer Paramaters:
+CloDer Parameters:
 ------------------
-Parameters are very basic, any additional paramters specified will be passed onto CloD ("Launcher.exe").
+Parameters are very basic, any additional parameters specified will be passed onto CloD ("Launcher.exe").
 
 	* Example(s):
 		- Run the game:
@@ -57,10 +57,10 @@ Parameters are very basic, any additional paramters specified will be passed ont
 			"C:\Downloads\CloDer.exe" "C:\Program Files (x86)\Steam\steamapps\common\il-2 sturmovik cliffs of dover\Launcher.exe" -mod=nomipmaps -mod=nossao
 
 	* Note(s):
-		As of version 0.0.0.2 parameters will take prefrence over local files (therefore you can specify a different 
+		As of version 0.0.0.2 parameters will take preference over local files (therefore you can specify a different 
 			"Launcher.exe" even if one already exists in the same directory as CloDer).
-		The first executable found in the "CloDer.exe" parameters will be considered to be "Launcher.exe".
-		Any path(s) containg a white-space must be wrapped in quotes.
+		The first executable found in the "CloDer.exe" parameters is considered to be "Launcher.exe".
+		Any path(s) counting a white-space must be wrapped in quotes.
 
 A few words of warning:
 -----------------------
@@ -86,11 +86,23 @@ http://msdn.microsoft.com/en-us/library/windows/desktop/aa366898.aspx | http://m
 Version History:
 ----------------
 	* 0.0.0.2:
-		Additional paramaters specified to "CloDer.exe" will be passed onto "Launcher.exe".
+		Additional parameters specified to "CloDer.exe" will be passed onto "Launcher.exe".
 		Minor enhancements to "CloDer.exe" & "CloDer.dll".
+		I have left "CloDer.exe" & "CloDer.dll" unpacked (previously I used UPX), this should tone down (+-50%) the false positives from "heuristically challenged" 
+			anti-virus products.
 
 	* 0.0.0.1:
 		Initial release.
+
+File Hashes:
+------------
+	* 0.0.0.2:
+		- CloDer.exe:
+			SHA1 - 8e93a724d211437f3e6b70117c6034e8f59e30d9
+			MD5  - bb615002fc3998124dab3faa7eff32ce
+		- CloDer.dll:
+			SHA1 - c4acd75b8e3da5216680ef5ebff836fee116c735
+			MD5  - eecfad7dfe828fc66cde88feda26ba4f
 
 Credits:
 --------

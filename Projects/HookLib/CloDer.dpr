@@ -2,6 +2,8 @@ library CloDer;
 
 {.$DEFINE WRITELOGDATA}
 
+{$DEFINE DEBUG}
+
 {$DEFINE APPCODE}
 
 {.$R version.res}
@@ -11,7 +13,9 @@ uses
   Windows,
   CloDer.Common,
   CloDer.Utils,
+{$IFDEF DEBUG}
   DebugWriter,
+{$ENDIF}
   uallHook;
 
 {$IF Defined(WRITELOGDATA)}

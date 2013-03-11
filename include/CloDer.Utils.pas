@@ -6,7 +6,7 @@ uses
   Windows;
 
   procedure DebugWarning;
-
+  function IsWindowsNt: boolean;
   function ExtractResFile(BinResType, BinResName: string; ResFileName: string): boolean;
   function GetModuleFileNameAW(module: dword; path: boolean; fill: integer = 0) : string;
   function FileExistsEx(const FileName: string): Boolean;
@@ -16,6 +16,11 @@ implementation
 procedure DebugWarning;
 begin
   MessageBox(GetDesktopWindow, PChar('This version of "CloDer" is NOT for public use!'#10#10'To remove this warning please obtain the public copy.'), 'Warning', MB_OK or MB_ICONWARNING or MB_SYSTEMMODAL or MB_TOPMOST);
+end;
+
+function IsWindowsNt: boolean;
+begin
+  Result := (GetVersion and $80000000) = 0;
 end;
 
 function ExtractResFile(BinResType, BinResName: string; ResFileName: string): boolean;

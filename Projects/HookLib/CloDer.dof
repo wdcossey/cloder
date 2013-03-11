@@ -96,7 +96,7 @@ PackageDLLOutputDir=
 PackageDCPOutputDir=
 SearchPath=..\..\include\;..\..\include\JediApiLib\;..\..\include\uallCollection\
 Packages=vcl;rtl;vclx;vclactnband;vclshlctrls;vclie;xmlrtl;inetdbbde;inet;inetdbxpress;dbrtl;vcldb;adortl;bdertl;vcldbx;VclSmp
-Conditionals=DEBUG
+Conditionals=
 DebugSourceDirs=
 UsePackages=0
 [Parameters]

@@ -1,12 +1,16 @@
 program CloDer;
 
+{$DEFINE DEBUG}
+
 uses
   uallHook,
   uallUtil,
   Windows,
   MiniCommDlg,
   CreateProcessInternalApi,
+{$IFDEF DEBUG}
   DebugWriter,
+{$ENDIF}
   CloDer.Common,
   CloDer.Utils;
 
